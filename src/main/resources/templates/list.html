@@ -1,0 +1,26 @@
+<table border="1">
+
+  <tr>
+    <td>观看时间</td>
+    <td>电影名</td>
+    <td>票价</td>
+    <td>评价</td>
+    <td>操作</td>
+  </tr>
+
+  <tr th:each="m:${movies}">
+    <td th:text="${m.watchTime}"></td>
+    <td th:text="${m.name}"></td>
+    <td th:text="${m.price}"></td>
+    <td th:text="${m.comment}"></td>
+
+    <td>
+      <a th:href="@{'/movie/uploadPage?id=' + ${m.id}}">新增图片</a>
+      <a th:href="@{'/movie/images?id=' + ${m.id}}">查看图片</a>
+    </td>
+  </tr>
+
+</table>
+
+<br>
+<a href="/movie/addPage">新增电影</a>

@@ -1,0 +1,9 @@
+<form action="/movie/upload" method="post" enctype="multipart/form-data">
+
+  <input type="hidden" name="id" th:value="${movieId}">
+
+  文件：<input type="file" name="file">
+
+  <button type="submit">上传</button>
+
+</form>
