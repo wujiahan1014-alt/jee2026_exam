@@ -4,7 +4,7 @@ spring:
     driver-class-name: org.hsqldb.jdbc.JDBCDriver
     username: sa
     password: 123456
-
+ 
   sql:
     init:
       mode: always
