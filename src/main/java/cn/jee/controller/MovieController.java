@@ -91,7 +91,7 @@ public class MovieController {
     // 2. 从 session 获取用户
     User sessionUser = (User) session.getAttribute("user");
 
-    if (sessionUser == null) { 
+    if (sessionUser == null) {
       return "redirect:/movie/index";
     }
 
