@@ -10,7 +10,7 @@ VALUES ('2026-02-17', '流浪地球2', 45.5,
 
 INSERT INTO movie(watch_time, name, price, review, user_id)
 VALUES ('2026-02-18', '阿凡达2', 60,
-        '奇幻深海世界观惊艳，视觉拉满，亲情主线细腻又打动人心视觉震撼', 1);
+        '奇幻深海世界观惊艳，视觉拉满，亲情主线细腻又打动人心视觉', 1);
 
 INSERT INTO movie(watch_time, name, price, review, user_id)
 VALUES
