@@ -1,3 +1,4 @@
+DELETE FROM movie_images;
 DELETE FROM movie;
 DELETE FROM user;
 

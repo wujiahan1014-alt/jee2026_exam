@@ -16,7 +16,7 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+
 public class Movie {
 
 
@@ -44,6 +44,5 @@ public class Movie {
 
   @ManyToOne(fetch = FetchType.LAZY)
   @ToString.Exclude
-  @EqualsAndHashCode.Exclude
   private User user;
 }
